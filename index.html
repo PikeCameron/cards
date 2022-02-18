@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards and Overlay</title>
+    <meta name="description" content="Donovan Mitchell Photography Page">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Titillium+Web:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
+  </head>
+<body class="form">
+    <header>
+      <nav>
+        <ul>
+          <li><a>Home</a></li>
+          <li><a href="about/">About</a></li>
+          <li><a href="form/">Form</a></li>
+        </ul>
+      </nav>
+
+      <svg>
+        <use href="#menu" />
+      </svg>
+    </header>
+  
+    <!-- the hero image as a picture -->
+    <div class="hero">
+      <picture>
+        <source srcset="images/hero-1600.jpg" media="(min-width: 902px)">
+        <source srcset="images/hero-900.jpg" media="(min-width: 502px)">
+        <source srcset="images/hero-500.jpg" media="(max-width: 500px)">
+        
+        <img src=" images/hero-900.jpg"
+        alt="man looking out into the distance">
+      </picture>
+        
+        <div class="text-wrapper">
+          <h1>Don's Photos</h1>
+          <p>Most baller photos you've ever seen</p>
+        </div>
+    </div> 
+
+    <main>
+      <article>
+        <h2>My Mission</h2>
+        <p>Many people know me as the star guard of the Utah Jazz. What people don't know is my strong passion for photography.
+           I started last week when I saw the most beautiful picture.
+        </p>
+  
+        <p>Despite what I may be doing, one thing is always true: Determination Over Negativity.
+        </p>
+
+        <a class="button" href="about/">Learn More</a>
+      </article>
+  
+      <article>
+        <h2>Why Go With Me?</h2>
+        <p>Have you ever had your pictures taken by an NBA player? Especially one as attractive as me? 
+          Didn't think so. With every booked session with me, you will receive a free pair of signed DON ISSUE #3 shoes. 
+          Now that's a deal!</p>
+
+          <a class="button" href="#">Buy My Shoe</a>
+      </article>
+    </main>
+
+    <aside>
+      <blockquote>Determination Over Negativity is a belief that anything
+         is possible no matter who you are or where you come from.</blockquote>
+      <p>&ndash; Donovan Mitchell</p>
+    </aside>
+  
+    <div class="cards">
+      <div class="card">
+        <a>
+          <img src="//unsplash.it/id/344/300" width="400" height="400" loading="lazy"
+            alt="the city">
+          <p class="overlay">
+            My City
+          </p>
+        </a>
+      </div>
+      <div class="card">
+        <a>
+          <img src="//unsplash.it/id/337/300" width="400" height="400" loading="lazy"
+            alt="farm of wheat">
+          <p class="overlay">
+            Reap what you sow
+          </p>
+        </a>
+      </div>
+      <div class="card">
+        <a>
+          <img src="//unsplash.it/id/324/300" width="400" height="400" loading="lazy"
+            alt="trail in the woods">
+          <p class="overlay">
+            Follow your own path
+          </p>
+        </a>
+      </div>
+      <div class="card">
+        <a>
+          <img src="//unsplash.it/id/314/300" width="400" height="400" loading="lazy"
+            alt="road">
+          <p class="overlay">
+            Pave your own road
+          </p>
+        </a>
+      </div>
+    </div>
+  
+    <footer>
+      <p>D-Mitch approves this message.</p>
+    </footer>
+    <svg>
+      <symbol id="menu" viewbox="0 0 120 120">
+        <line x1="6" y1="30" x2="114" y2="30" stroke-width="8"
+          stroke-linecap="round" />
+        <line x1="6" y1="60" x2="114" y2="60" stroke-width="8"
+          stroke-linecap="round" />
+          <line x1="6" y1="90" x2="114" y2="90" stroke-width="8"
+          stroke-linecap="round" />
+      </symbol>
+    </svg>
+  </body>
+</html>
